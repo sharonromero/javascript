@@ -91,7 +91,7 @@ while(num <= 333); {
 //His code for above:
 //var counter = 300;
 //while(counter <= 333) {
-	//if(counter % 2 !==0) {
+	//if(counter % 2 !== 0) {
 		//console.log(counter);
 	//}
 	//counter+=1;
