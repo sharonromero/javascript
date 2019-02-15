@@ -38,6 +38,20 @@ else {
 // 	count++;
 // }
 
+//For Loop (not part of Guessing Game) - Printing each character in a string.
+var str = "hello";
+
+for(var i = 0; i < str.length; i++) {
+	console.log(str[i]);
+}
+
+//For Loop that prints every other character in a string.
+var str = "ahceclwlxo";
+
+for(var i = 1; i < str.length; i+=2) {
+	console.log(str[i]);
+}
+
 //WHILE LOOPS PROBLEM SET:
 //Print all numbers between -10 and 19
 var num = -10
