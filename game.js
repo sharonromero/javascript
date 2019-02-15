@@ -54,14 +54,14 @@ for(var i = 1; i < str.length; i+=2) {
 
 //WHILE LOOPS PROBLEM SET:
 //Print all numbers between -10 and 19
-var num = -10
+// var num = -10
 
-while(num >= -10) {
-	if(num <= 19) {
-		console.log(num);	
-	}
-	num++;
-}
+// while(num >= -10) {
+// 	if(num <= 19) {
+// 		console.log(num);	
+// 	}
+// 	num++;
+// }
 //His code for above:
 //var counter = -10;
 //while(counter < 20) {
@@ -70,12 +70,12 @@ while(num >= -10) {
 //}
 
 //Print all even numbers between 10 and 40
-var num = 10
+// var num = 10
 
-while(num <= 40) {
-		console.log(num + 1);	
-		num++;
-}
+// while(num <= 40) {
+// 		console.log(num + 1);	
+// 		num++;
+// }
 //His code for above (two different ways):
 //1st way:
 //var counter = 10;
@@ -96,12 +96,12 @@ while(num <= 40) {
 
 //Print all odd numbers between 300 and 333
 
-var num = 300
+// var num = 300
 
-while(num <= 333); {
-	console.log(num +3);
-	num++;
-}
+// while(num <= 333); {
+// 	console.log(num +3);
+// 	num++;
+// }
 //His code for above:
 //var counter = 300;
 //while(counter <= 333) {
@@ -113,11 +113,11 @@ while(num <= 333); {
 
 //Print all numbers divisible by 5 AND 3 between 5 and 50
 
-var num = 5
+// var num = 5
 
-while (num = 5); {
-	console.log(num ())
-}
+// while (num = 5); {
+// 	console.log(num ())
+// }
 
 //His code for above:
 //var counter = 5;
@@ -128,3 +128,50 @@ while (num = 5); {
 	//}
 	//counter+=1;
 //}
+
+//FOR LOOPS PROBLEM SET:
+//Print all numbers between -10 and 19
+// for(var counter = -10; counter < 20; counter++) {
+// 	console.log(counter);
+// }
+
+//His code for Print all numbers between -10 and 19:
+// for(var i = -10; i < 20; i++) {
+// 	console.log(i);
+// }
+
+//Print all even numbers between 10 and 40
+// for(var counter = 10; counter <= 40(counter % 2 === ); counter+=1) {
+// 	console.log(counter);
+// }
+
+//His code for Print all even numbers between 10 and 40
+//for(var i = 10; i <= 40; i += 1) {
+// 	if(i % 2 === 0) {
+// 		console.log(i);
+// 	}
+// }
+
+//Print all odd numbers between 300 and 333
+// for(var counter = 300; counter <= 333(counter % 2 !== 0); counter+=1) {
+// 	console.log(counter);
+// }
+
+//His code for Print all odd numbers between 300 and 333
+//for(var i = 300; i <= 333; i++) {
+// 	if(i % 2 !== 0) {
+// 		console.log(i);
+// 	}
+// }
+
+//Print all numbers divisible by 5 AND 3 between 5 and 50
+// for(var counter = 5; counter % 5 === 0 && counter % 3 === 0; counter+=1) {
+// 	console.log(counter);
+// }
+
+//His code for Print all numbers divisible by 5 AND 3 between 5 and 50
+// for (var i = 5; i <= 50; i++) {
+// 	if(i % 5 === 0 && i % 3 === 0) {
+// 	console.log(i);
+//  }
+// }
