@@ -175,3 +175,54 @@ for(var i = 1; i < str.length; i+=2) {
 // 	console.log(i);
 //  }
 // }
+
+//Functions Problem Set
+//isEven()
+function isEven(num) {
+	//return true if even
+	if (num % 2 === 0) {
+		return true;
+	}
+	//return false otherwise
+	else {
+		return false;
+	}
+}
+//or a second way
+function isEven(num) {
+	return num % 2 === 0;
+}
+
+//factorial()
+function factorial(x) 
+{ 
+
+  if (x === 0)
+ {
+    return 1;
+ }
+  return x * factorial(x-1);
+         
+}
+console.log(factorial(5));
+
+//His code
+function factorial(num) {
+	//define a result variable
+	var result = 1;
+	//calculate factorial and store value in result
+	for(var i = 2; i <= num; i++) {
+		result *= i;
+	}
+	//return the result variable
+	return result;
+}
+
+//kebabToSnake()
+function kebabToSnake(str) {
+    //replace all dashes with underscores
+    var myString = str.replace(/-/g, "_");
+    //return str
+    return myString;
+    //try with: "this - is -a - ---test";
+}
